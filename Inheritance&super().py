@@ -871,28 +871,3 @@ electronic1.display()
 # Child
 #    ↓
 # 继承 + 增加自己的功能
-
-你这份现在已经可以作为 OOP → Inheritance 的 GitHub 笔记了。
-
-目前你的 OOP 路线已经到：
-
-Class
-Object
-__init__
-self
-Attribute
-Method
-Method 参数
-Method 修改 Attribute
-Method 调用 Method
-return
-__str__
-Encapsulation
-        ↓
-Inheritance        ← 现在
-super()
-Method Overriding
-        ↓
-Polymorphism       ← 下一步
-
-而且你刚刚已经自己发现了一个很重要的区别：super().__init__() 是调用 Parent 的初始化，而 super().display() 是调用 Parent 的 Method。这个理解比单纯记语法重要很多。
